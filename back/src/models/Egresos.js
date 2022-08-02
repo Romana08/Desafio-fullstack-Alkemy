@@ -13,10 +13,13 @@ export const Egresos = sequelize.define('egreso',{
     name:{
         type: DataTypes.STRING ,
     },
+    price: {
+        type: DataTypes.INTEGER,
+    },
      cantidad :{
         type: DataTypes.INTEGER,
     },
-    descripcion:{
+    description:{
         type:DataTypes.TEXT,
     },
   });

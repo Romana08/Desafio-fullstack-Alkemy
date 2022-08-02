@@ -9,11 +9,11 @@
  }
 
 export const createIncome = async (req, res)=>{
-  const { name, price, cantidad, descripction } = req.body;
+  const { name, price, amount, descripction } = req.body;
   Ingresos.create({
     name: name,
     price: price,
-    cantidad: cantidad,
+    amount: amount,
     descripction: descripction
   })
   console.log("se ha agregado un nuevo ingreso");

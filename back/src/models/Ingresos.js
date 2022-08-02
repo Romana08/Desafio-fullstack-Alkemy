@@ -16,10 +16,10 @@ export const Ingresos = sequelize.define('ingreso',{
      price:{
         type: DataTypes.INTEGER,
      },
-     cantidad :{
+     amount :{
         type: DataTypes.INTEGER,
     },
-    descripcion:{
+    description:{
         type:DataTypes.TEXT,
     },
   });
