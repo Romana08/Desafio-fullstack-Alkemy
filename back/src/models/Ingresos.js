@@ -13,6 +13,9 @@ export const Ingresos = sequelize.define('ingreso',{
     name:{
         type: DataTypes.STRING ,
     },
+     price:{
+        type: DataTypes.INTEGER,
+     },
      cantidad :{
         type: DataTypes.INTEGER,
     },
